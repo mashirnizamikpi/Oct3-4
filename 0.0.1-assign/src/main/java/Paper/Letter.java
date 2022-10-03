@@ -3,32 +3,18 @@ package Paper;
 public class Letter extends Paper{
 
 	@Override
-	public String name() 
-	{
-		System.out.println("Letter");
+	int cost(int a, int b) {
 		// TODO Auto-generated method stub
-		return null;
+		return a*b;
 	}
 
 	@Override
-	public int prod() {
-		System.out.println("Moderate");
+	int price(int c, int d) {
 		// TODO Auto-generated method stub
-		return 0;
+		return c*d;
 	}
 
-
-	public static void main(String[] args)
-
-	{
-		Letter le = new Letter();
-	   
-	    le.name();
-	    le.prod();
-	   
-	    
-	    
-	}
+	
 
 
 

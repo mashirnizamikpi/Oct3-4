@@ -3,30 +3,17 @@ package Paper;
 public class Chart extends Paper{
 
 	@Override
-	public String name() {
-		System.out.println("Chart");
+	int cost(int a, int b) {
 		// TODO Auto-generated method stub
-		return null;
+		return a*b;
 	}
 
 	@Override
-	public int prod() {
-		System.out.println("Low");
+	int price(int c, int d) {
 		// TODO Auto-generated method stub
-		return 0;
+		return c*d;
 	}
-	
-	public static void main(String[] args)
 
-	{
-		Chart ch = new Chart();
-	   
-	    ch.name();//Encapsulation
-	    ch.prod();
-	   
-	    
-	    
-	}
 
 
 

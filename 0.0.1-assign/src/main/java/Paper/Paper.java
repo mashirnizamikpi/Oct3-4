@@ -4,7 +4,7 @@ package Paper;
 
 public abstract class Paper { //
 
-	abstract String name();
-	abstract int prod();
+	abstract int cost(int a,int b);
+	abstract int price(int c,int d);
 	
 }
