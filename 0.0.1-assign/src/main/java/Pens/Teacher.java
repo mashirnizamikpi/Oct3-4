@@ -3,7 +3,7 @@ package Pens;
 public class Teacher implements Pen,Pencil {
 	//inherits from parent class Pen,Pencil
 
-
+	//2nd solution for Diamond problem
 
 
 

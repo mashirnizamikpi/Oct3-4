@@ -1,4 +1,5 @@
 package Riding;
+//1st solution for Diamond problem
 
 public interface Glider extends SubParent {
 

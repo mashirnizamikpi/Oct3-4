@@ -1,5 +1,5 @@
 package Riding;
-
+//1st solution for Diamond problem
 public class Person implements Swing,Glider {
 
 	@Override

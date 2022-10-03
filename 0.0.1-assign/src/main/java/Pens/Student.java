@@ -1,5 +1,5 @@
 package Pens;
-
+//2nd solution for Diamond problem
 public class Student implements Pen,Pencil {
 	//inherits from parent class Pen,Pencil
 
