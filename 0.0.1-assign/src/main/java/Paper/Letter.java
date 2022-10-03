@@ -4,6 +4,7 @@ public class Letter extends Paper{
 
 	@Override
 	int cost(int a, int b) {
+		
 		// TODO Auto-generated method stub
 		return a*b;
 	}

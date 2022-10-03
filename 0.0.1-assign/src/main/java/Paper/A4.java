@@ -8,6 +8,7 @@ public class A4 extends Paper{
 		// TODO Auto-generated method stub
 		return a*b;
 	}
+	
 
 	@Override
 	int price(int c, int d) {
@@ -15,5 +16,6 @@ public class A4 extends Paper{
 		return c*d;
 	}
 
+	
 
 }
