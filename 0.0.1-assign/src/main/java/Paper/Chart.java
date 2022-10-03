@@ -2,6 +2,7 @@ package Paper;
 
 public class Chart extends Paper{
 
+	
 	@Override
 	int cost(int a, int b) {
 		

@@ -2,6 +2,7 @@ package Paper;
 
 public class A4 extends Paper{
 
+	
 
 	@Override
 	int cost(int a, int b) {
