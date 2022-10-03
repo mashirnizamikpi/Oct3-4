@@ -16,5 +16,6 @@ public class TeacherTest {
 		assertEquals(400,f);
 		System.out.println("the cost of teacher pencil"+" "+f );
 	}
+	
 
 }
