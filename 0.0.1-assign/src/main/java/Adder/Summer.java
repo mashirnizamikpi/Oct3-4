@@ -1,9 +1,12 @@
 package Adder;
 
-public interface Summer {
+public interface Summer extends Calculator {
 	
 
-	 int add();
+	 public default int add(int a,int b,int c) {
+		 
+		 return a+b+c;
+	 }
 		
 		
 	

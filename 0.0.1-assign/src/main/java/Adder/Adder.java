@@ -1,8 +1,12 @@
 package Adder;
 
-public interface Adder {
+public interface Adder extends Calculator{
 	
-	int add();
+	public default int add(int a,int b) {
+		
+		return a+b;
+		
+	}
 	
 
 

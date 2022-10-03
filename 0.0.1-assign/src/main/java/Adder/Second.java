@@ -5,13 +5,18 @@ public class Second implements Summer,Adder {
 		
 
 
-	public int add(int a,int b) {
+	public void start()
+	{
+		
+		Adder.super.add(6,8);
+		Summer.super.add(9,11,13);
+		
+	}
+
+	public int add(int a, int b) {
 		// TODO Auto-generated method stub
 		return a+b;
 	}
-
-
-
 
 
 
@@ -27,10 +32,18 @@ public class Second implements Summer,Adder {
 
 
 
-	public int add() {
+	@Override
+	public void run() {
 		// TODO Auto-generated method stub
-		return 0;
+		
 	}
+
+
+
+
+
+
+
 
 
 
