@@ -1,0 +1,12 @@
+Diamond Problem is due to :
+
+Only one paraent child can access to sub parent child.
+
+Method Overriding and Mehtod Overloading in Diamond Problem can be solved by approaching through :
+
+1. Two interfaces and Two classes
+
+2. One interface Subparent,Two Interface Parent and one child class
+
+
+which I have created in my repository
