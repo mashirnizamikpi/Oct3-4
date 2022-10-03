@@ -3,6 +3,7 @@ package Books;
 public class Fiction extends Book{
 	
 	 
+	
 	public void name()
 	{
 	System.out.println("Fiction");
