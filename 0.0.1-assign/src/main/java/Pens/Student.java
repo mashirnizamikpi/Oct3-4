@@ -14,6 +14,7 @@ public class Student implements Pen,Pencil {
 		return a+b;
 		
 	}
+	
 
 
 
