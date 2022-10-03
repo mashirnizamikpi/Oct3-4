@@ -6,25 +6,29 @@ import java.util.Map;
 
 public class Employee{
 	
-	public static void main(String[] args) {
+	public static String start() {
 		
 
 	System.out.println("Employees = EmpId");
 
 	//when we using HashMap for two parameters at one time
-Map<String,Integer> hm = new HashMap<String, Integer>();
+Map<Integer,String> map = new HashMap<Integer,String>();
 
-hm.put("Amit", 9192);
-hm.put("Ashok", 9193);
-hm.put("Brishej", 9194);
-hm.put("Chander", 9195);
-hm.put("Mashir", 9196);
-hm.put("Peter", 9197);
-System.out.println(hm);
+map.put(9192,"Amit");
+map.put(9193,"Ashok");
+map.put(9194,"Brishej");
+map.put(9195,"Chander");
+map.put(9196,"Mashir");
+map.put(9197,"Peter");
+map.put(9197,"Rakesh");
 
+System.out.println(map);
+return map.get(9195);
 	
 	
 
 }
+
+
 
 }
