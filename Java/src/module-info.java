@@ -5,5 +5,5 @@
  * @author MashirNizami
  *
  */
-module java {
+module Java {
 }
