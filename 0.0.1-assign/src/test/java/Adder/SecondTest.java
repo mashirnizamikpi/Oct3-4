@@ -3,7 +3,7 @@ package Adder;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
+//solution for method overloading of Diamond Problem
 public class SecondTest {
 
 	@Test

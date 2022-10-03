@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-
+//solution for method overloading of Diamond Problem
 public class FirstTest {
 	@Test
 	public void First() {

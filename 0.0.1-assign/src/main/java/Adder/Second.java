@@ -3,7 +3,7 @@ package Adder;
 public class Second implements Summer,Adder {
 
 		
-
+	//solution for method overloading of Diamond Problem
 
 	public void start()
 	{
