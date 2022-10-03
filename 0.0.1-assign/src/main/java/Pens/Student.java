@@ -10,8 +10,9 @@ public class Student implements Pen,Pencil {
 	
 	public int Pcost(int a,int b) {
 		// TODO Auto-generated method stub
-		
+	
 		return a+b;
+		
 	}
 
 
